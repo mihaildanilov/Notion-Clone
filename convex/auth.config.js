@@ -3,7 +3,7 @@ export default {
   providers: [
     {
       domain: process.env.CLERK_ISSUER_URL,
-      applicationID: env.CLERK_APP_ID,
+      applicationID: process.env.CLERK_APP_ID,
     },
   ],
 };
